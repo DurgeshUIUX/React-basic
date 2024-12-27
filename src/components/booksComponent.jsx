@@ -71,25 +71,6 @@ const BooksComponent = () => {
         </Button>
       </form>
     </div>
-    // <Formik
-    //   initialValues={{
-    //     id: Date.now(),
-    //     title: '',
-    //     author: '',
-    //     isRead: false,
-    //   }}
-    //   onSubmit={handleSubmit}
-    // >
-    //   <Form>
-    //     <label htmlFor="title">Book Title</label>
-    //     <Field id="title" name="title" placeholder="Jane" />
-
-    //     <label htmlFor="author">Author</label>
-    //     <Field id="author" name="author" placeholder="Doe" />
-
-    //     <button type="submit">Add Book</button>
-    //   </Form>
-    // </Formik>
   );
 };
 
